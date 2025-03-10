@@ -1,0 +1,7 @@
+requests
+pymongo
+pymongo
+urllib.parse
+matplotlib.pyplot
+numpy
+logging
