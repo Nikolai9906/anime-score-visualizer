@@ -49,8 +49,8 @@ Before you begin, ensure you have the following installed:
 
 2. **Create and activate a virtual environment:**
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 3. **Install dependencies:**
    ```bash
@@ -69,7 +69,7 @@ Before you begin, ensure you have the following installed:
 ## 🚀 **Usage**
 - Run the main script to fetch data, store it in MongoDB, and visualize the scores:
     ```bash
-    python main.py
+    python api.py
 ---
 
 ## 🤝 **Contributing**
